@@ -39,7 +39,7 @@ var librosAutoayuda = (datos) => {
       "<a  href='" +
       libroAutoayuda.link +
       "'" +
-      " class='libro__btnLink' target='_blank'>Leer</a> <button class='libro__comment' onclick='openCommentDisplay()'>Comentar</button>" +
+      " class='libro__btnLink' target='_blank'>Leer</a> <button class='libro__comment'  type='button' onclick='openCommentDisplay()'>Comentar</button>" +
       "</div>";
 
     html += "</div>";
@@ -82,7 +82,7 @@ var librosCienMat = (datos) => {
       "<a  href='" +
       libroCienMat.link +
       "'" +
-      " class='libro__btnLink' target='_blank'>Leer</a> <button class='libro__comment' onclick='openCommentDisplay()'>Comentar</button>" +
+      " class='libro__btnLink' target='_blank'>Leer</a> <button class='libro__comment' type='button' onclick='openCommentDisplay()'>Comentar</button>" +
       "</div>";
 
     html += "</div>";
@@ -125,7 +125,7 @@ var librosHistoria = (datos) => {
       "<a  href='" +
       libroHistoria.link +
       "'" +
-      " class='libro__btnLink' target='_blank'>Leer</a> <button class='libro__comment' onclick='openCommentDisplay()'>Comentar</button>" +
+      " class='libro__btnLink' target='_blank'>Leer</a> <button class='libro__comment' type='button' onclick='openCommentDisplay()'>Comentar</button>" +
       "</div>";
 
     html += "</div>";
@@ -171,7 +171,7 @@ var librosTecnologia = (datos) => {
       "<a  href='" +
       libroTecnologia.link +
       "'" +
-      " class='libro__btnLink' target='_blank'>Leer</a> <button class='libro__comment' onclick='openCommentDisplay()'>Comentar</button>" +
+      " class='libro__btnLink' target='_blank'>Leer</a> <button class='libro__comment' type='button' onclick='openCommentDisplay()'>Comentar</button>" +
       "</div>";
 
     html += "</div>";
@@ -217,7 +217,7 @@ var librosCienFicFant = (datos) => {
       "<a  href='" +
       libroCienFicFant.link +
       "'" +
-      " class='libro__btnLink' target='_blank'>Leer</a> <button class='libro__comment' onclick='openCommentDisplay()'>Comentar</button>" +
+      " class='libro__btnLink' target='_blank'>Leer</a> <button class='libro__comment' type='button' onclick='openCommentDisplay()'>Comentar</button>" +
       "</div>";
 
     html += "</div>";
