@@ -82,6 +82,11 @@
   .header__logo {
     height: 60%;
   }
+
+  .header__btn-SignIn,
+  .header__btn-LogIn{
+    display: none;
+  }
   .hero {
     display: grid;
     grid-template-columns: 100%;
@@ -236,8 +241,6 @@
 }
 
 @media only screen and (max-width: 540px) {
-  .header__btn-SignIn,
-  .header__btn-LogIn,
   .user_ID.enable,
   .nuevasAdquisiciones__tablet-desktop {
     display: none;
