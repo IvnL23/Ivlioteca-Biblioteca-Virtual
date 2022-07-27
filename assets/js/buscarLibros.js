@@ -1,5 +1,4 @@
 var campoFiltro = document.querySelector(".searchInput");
-console.log(campoFiltro);
 campoFiltro.addEventListener("input", function () {
   var libros = document.querySelectorAll(".tarjeta__libro");
 

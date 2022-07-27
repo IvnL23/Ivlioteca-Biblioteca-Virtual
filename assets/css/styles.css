@@ -1,5 +1,4 @@
 :root {
-  
   --backgroud-blanco: #ffffff;
   --fuente-azul: #293855;
   --fuente-naranja: #f2ac20;
@@ -76,10 +75,7 @@
 }
 
 .menu-icon,
-#check {
-  display: none;
-}
-
+#check,
 .header__hamburguer___menu {
   display: none;
 }
@@ -344,42 +340,18 @@
   justify-content: space-between;
 }
 
-.libros__autoayuda {
-  display: none;
-}
-
-.libros__autoayuda.remov {
-  display: flex;
-}
-
-.libros__cienciamat {
-  display: none;
-}
-
-.libros__cienciamat.act {
-  display: flex;
-}
-
-.libros__tecnologia {
-  display: none;
-}
-
-.libros__tecnologia.ac {
-  display: flex;
-}
-
-.libros__historia {
-  display: none;
-}
-
-.libros__historia.aactv {
-  display: flex;
-}
-
+.libros__autoayuda,
+.libros__cienciamat,
+.libros__tecnologia,
+.libros__historia,
 .libros__cienciaficfant {
   display: none;
 }
 
+.libros__autoayuda.remov,
+.libros__cienciamat.act,
+.libros__tecnologia.ac,
+.libros__historia.aactv,
 .libros__cienciaficfant.acttv {
   display: flex;
 }

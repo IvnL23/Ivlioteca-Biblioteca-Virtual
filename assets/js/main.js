@@ -3,13 +3,15 @@
 var app = {};
 
 var librosAutoayuda = (datos) => {
-  console.log(datos);
   app.libros = datos; //se guardan los libros en la variable general "datos".
 
   html = "";
   app.libros.map((libroAutoayuda) => {
     html += "<div class='tarjeta__libro'>";
-    html += "<img class='libro__Portada' src='" + libroAutoayuda.portada + "'>";
+    html +=
+      "<img class='libro__Portada' src='" +
+      libroAutoayuda.portada +
+      "' alt='Portada'>";
     html += "<h4 class='libro__Titulo'>" + libroAutoayuda.Titulo + "</h4>";
     html += "<div class='libro__Rate'>" + libroAutoayuda.Star + "</div>";
     html +=
@@ -47,13 +49,15 @@ var librosAutoayuda = (datos) => {
 };
 
 var librosCienMat = (datos) => {
-  console.log(datos);
   app.libros = datos; //se guardan los libros en la variable general "datos".
 
   html = "";
   app.libros.map((libroCienMat) => {
     html += "<div class='tarjeta__libro'>";
-    html += "<img class='libro__Portada' src='" + libroCienMat.portada + "'>";
+    html +=
+      "<img class='libro__Portada' src='" +
+      libroCienMat.portada +
+      "' alt='Portada'>";
     html += "<h4 class='libro__Titulo'>" + libroCienMat.Titulo + "</h4>";
     html += "<div class='libro__Rate'>" + libroCienMat.Star + "</div>";
     html +=
@@ -88,13 +92,15 @@ var librosCienMat = (datos) => {
 };
 
 var librosHistoria = (datos) => {
-  console.log(datos);
   app.libros = datos; //se guardan los libros en la variable general "datos".
 
   html = "";
   app.libros.map((libroHistoria) => {
     html += "<div class='tarjeta__libro'>";
-    html += "<img class='libro__Portada' src='" + libroHistoria.portada + "'>";
+    html +=
+      "<img class='libro__Portada' src='" +
+      libroHistoria.portada +
+      "' alt='Portada'>";
     html += "<h4 class='libro__Titulo'>" + libroHistoria.Titulo + "</h4>";
     html += "<div class='libro__Rate'>" + libroHistoria.Star + "</div>";
     html +=
@@ -129,14 +135,15 @@ var librosHistoria = (datos) => {
 };
 
 var librosTecnologia = (datos) => {
-  console.log(datos);
   app.libros = datos; //se guardan los libros en la variable general "datos".
 
   html = "";
   app.libros.map((libroTecnologia) => {
     html += "<div class='tarjeta__libro'>";
     html +=
-      "<img class='libro__Portada' src='" + libroTecnologia.portada + "'>";
+      "<img class='libro__Portada' src='" +
+      libroTecnologia.portada +
+      "' alt='Portada'>";
     html += "<h4 class='libro__Titulo'>" + libroTecnologia.Titulo + "</h4>";
     html += "<div class='libro__Rate'>" + libroTecnologia.Star + "</div>";
     html +=
@@ -174,14 +181,15 @@ var librosTecnologia = (datos) => {
 };
 
 var librosCienFicFant = (datos) => {
-  console.log(datos);
   app.libros = datos; //se guardan los libros en la variable general "datos".
 
   html = "";
   app.libros.map((libroCienFicFant) => {
     html += "<div class='tarjeta__libro'>";
     html +=
-      "<img class='libro__Portada' src='" + libroCienFicFant.portada + "'>";
+      "<img class='libro__Portada' src='" +
+      libroCienFicFant.portada +
+      "' alt='Portada'>";
     html += "<h4 class='libro__Titulo'>" + libroCienFicFant.Titulo + "</h4>";
     html += "<div class='libro__Rate'>" + libroCienFicFant.Star + "</div>";
     html +=
@@ -336,9 +344,6 @@ function valideKey(evt) {
 document.querySelector(".form__signIn").addEventListener("submit", (e) => {
   e.preventDefault();
   const dataSign = Object.fromEntries(new FormData(e.target));
-  console.log(JSON.stringify(dataSign));
-
-  console.log("Email:" + dataSign.emailRequest);
 
   if (
     dataSign.emailRequest == "eva_angelica@ivlioteca.com" &&
@@ -359,7 +364,6 @@ document.querySelector(".form__signIn").addEventListener("submit", (e) => {
 document.querySelector(".form__LogIn").addEventListener("submit", (ex) => {
   ex.preventDefault();
   const dataLog = Object.fromEntries(new FormData(ex.target));
-  console.log(JSON.stringify(dataLog));
   document.querySelector(".header__btn-LogIn").classList.toggle("disablee");
   document.querySelector(".header__btn-SignIn").classList.toggle("disable");
   document.querySelector(".user_ID").classList.toggle("enable");
@@ -367,4 +371,3 @@ document.querySelector(".form__LogIn").addEventListener("submit", (ex) => {
   document.querySelector(".user_ID").innerHTML = dataLog.emailRequestlog;
   document.querySelector(".user_ID___Ham").innerHTML = dataSign.emailRequest;
 });
-
