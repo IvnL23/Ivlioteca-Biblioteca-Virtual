@@ -1,0 +1,228 @@
+/* -----------------------------------------------------------
+                        Estilos Slider Populares
+-------------------------------------------------------------- */
+.slider {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.slider ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: slider 20s infinite alternate;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.slider li {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  justify-content: center;
+}
+
+.slider img {
+  width: 21.75rem;
+  height: 31.25rem;
+  border-radius: 10px;
+  border: 2px solid var(--fuente-azul);
+  cursor: pointer;
+}
+
+@keyframes slider {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+
+  75% {
+    margin-left: -300%;
+  }
+
+  90% {
+    margin-left: -300%;
+  }
+
+  100% {
+    margin-left: -300%;
+  }
+}
+
+/* -----------------------------------------------------------
+                Estilos Slider nuevas adquisiciones desktop
+-------------------------------------------------------------- */
+
+.slider2 {
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.slider2 ul {
+  display: flex;
+  padding: 0;
+  width: 300%;
+  animation: slider2 20s infinite alternate;
+  align-items: center;
+  margin: 6rem 0;
+}
+
+.slider2 li {
+  display: flex;
+  width: 90%;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero__carousel {
+  width: calc(22.75rem / 1.4) !important;
+  height: calc(32.25rem / 1.4) !important;
+}
+
+.hero__carousel:hover {
+  width: calc(23.25rem / 1.4) !important;
+  height: calc(33.75rem / 1.4) !important;
+}
+
+.slider2 img {
+  width: calc(18.75rem / 1.4);
+  height: calc(28.25rem / 1.4);
+  border-radius: 10px;
+  border: 2px solid var(--fuente-azul);
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.slider2 img:hover {
+  width: calc(20.75rem / 1.4);
+  height: calc(30.25rem / 1.4);
+}
+
+@keyframes slider2 {
+  0% {
+    margin-left: 0;
+  }
+  12.5% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: 0%;
+  }
+  37.5% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -100%;
+  }
+  62.5% {
+    margin-left: -100%;
+  }
+
+  75% {
+    margin-left: -200%;
+  }
+
+  87.5% {
+    margin-left: -200%;
+  }
+
+  100% {
+    margin-left: -200%;
+  }
+}
+
+/* -----------------------------------------------------------
+                Estilos Slider nuevas adquisiciones movil
+-------------------------------------------------------------- */
+
+.slider3 {
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.slider3 ul {
+  display: flex;
+  padding: 0;
+  width: 900%;
+  animation: slider2 27s infinite alternate;
+  align-items: center;
+  margin: 6rem 0;
+}
+
+.slider3 li {
+  display: flex;
+  width: 90%;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.slider3 img {
+  width: 17.75rem;
+  height: 27.25rem;
+  border-radius: 10px;
+  border: 2px solid var(--fuente-azul);
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.slider3 img:hover {
+  width: calc(18.75rem / 1.4);
+  height: calc(28.25rem / 1.4);
+}
+
+@keyframes slider3 {
+  0% {
+    margin-left: 0%;
+  }
+  12.5% {
+    margin-left: -100%;
+  }
+  25% {
+    margin-left: -200%;
+  }
+  37.5% {
+    margin-left: -300%;
+  }
+  50% {
+    margin-left: -400%;
+  }
+  62.5% {
+    margin-left: -500%;
+  }
+
+  75% {
+    margin-left: -600%;
+  }
+
+  87.5% {
+    margin-left: -700%;
+  }
+
+  100% {
+    margin-left: -800%;
+  }
+}

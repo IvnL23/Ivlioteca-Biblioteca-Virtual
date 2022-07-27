@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivlioteca | Admin</title>
+    <link rel="shortcut icon" href="./assets/img/biblioteca.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/index_admin.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Karla:wght@400;500;700&family=Montserrat:wght@300;400;500;700&family=Neuton:ital,wght@0,700;1,400&family=Outfit:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="body-admin">
+    <header></header>
+    <main>
+        <section class="container__newLibro">
+           <div class="return-index">
+            <div class="return-index">
+             <a href="./index.html">
+                <lord-icon
+                    src="https://cdn.lordicon.com/iifryyua.json"
+                    trigger="hover"
+                    colors="primary:#ffffff"
+                    state="hover-2"
+                    style="width:50px;height:50px"
+                    class="return-index">
+                </lord-icon>
+             </a>
+            </div>
+            <div class="contenedor__titulo___AgregarLibro">
+             <h2 class="titulo__AgregarLibro">Agregar Nuevo Libro</h2>
+            </div>
+        </div>
+
+            <form action="mailto:ivanleandrofrias@gmail.com" method="post">
+                <div class="categoriaDeLibro">
+                    <input type="radio" name="radio" id="CientMat">
+                    <label for="CientMat" class="label__Cat">Ciencia y Matemáticas</label>
+                    
+                    <input type="radio" name="radio" id="Autoayuda">
+                    <label for="Autoayuda" class="label__Cat">Autoayuda</label>
+                    
+                    <input type="radio" name="radio" id="Tecnología">
+                    <label for="Tecnología" class="label__Cat">Tecnología</label>
+                    
+                    <input type="radio" name="radio" id="Historia">
+                    <label for="Historia" class="label__Cat">Historia</label>
+                    
+                    <input type="radio" name="radio" id="CienFicFant">
+                    <label for="CienFicFant" class="label__Cat">Ciencia ficción y Fantasía</label><br>
+                </div>
+                <div class="inputs__catch-txt">
+                    <input type="text" name="Titulo" id="" class="input__Titulo-Libro input" placeholder="Titulo: " required><br>
+                    <input type="text" class="input__Autor-Libro input" placeholder="Autor: " required><br>
+                    <input type="text" class="input__Edicion-Libro input" placeholder="Edicion: " required><br>
+                    <input type="text" class="input__NoPaginas-Libro input" placeholder="Numero de Paginas: " required onkeypress="return valideKey(event);"><br>
+                    <input type="text" class="input__isbn-Libro input" placeholder="ISBN: " required minlength="10" maxlength="13"><br>
+                    <label for="input__Portada___Imagen-Libro" class="label-img">Agregar imagen</label><br>
+                    <input type="file" src="" alt="" id="input__Portada___Imagen-Libro " accept="image/png,image/jpeg,image/jpg,image/svg,image/webp" class="input__Portada___Imagen-Libro"><br>
+                    <input type="url" name="" id="" class="input__Portada___Link-Libro input" placeholder="Agregue la url de la imagen: "><br>
+                    <input type="text" class="input__LINKlibro-Libro input" placeholder="Agregue la url del libro: " required><br>
+                    <input type="submit" value="Enviar" class="input__Submit-Libro">
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

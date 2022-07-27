@@ -1,0 +1,44 @@
+* {
+  font-family: Outfit;
+  list-style: none;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.acercaDe h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: #4884ee;
+}
+
+.info__objetivos {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.acercaDe ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.acercaDe ul li i {
+  color: #f2ac20;
+}
+
+.acerdaDe__admin h2 {
+  font-size: 3rem;
+  color: #3369e8;
+  text-align: center;
+}
+
+.acercaDe p {
+  text-align: center;
+}

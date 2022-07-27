@@ -1,0 +1,500 @@
+librosAutoayuda([
+        {
+            "Titulo": "Piense y hagase rico",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'>",
+            "Autor": "Napoleón Hill",
+            "Edicion": "5ta edición.",
+            "NoPaginas": "263",
+            "isbn": "979-9084183212",
+            "portada": "https://m.media-amazon.com/images/I/517rvqoxrhL.jpg",
+           "link": "https://www.economicas.unsa.edu.ar/afinan/informacion_general/book/piense_y_hagase_rico.pdf"
+        },
+    
+        {
+            "Titulo" : "El Club de las 5 de la mañana",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/clasificacion.png' alt='Rate'>",
+            "Autor": "Robin Sharma",
+            "Edicion": "1ra edición",
+            "NoPaginas": "389",
+            "isbn": "978-1949061673",
+            "portada": "https://m.media-amazon.com/images/I/41XYV2CoAQL.jpg",
+            "link": "https://drive.google.com/file/d/1Gleuka284INDFpcIp3L9vBrTPfZzMHHj/view"
+        },
+    
+        {
+            "Titulo": "Inteligencia Emocional 2.0",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'>",
+            "Autor": "Travis Bradberry",
+            "Edicion": "1ra edición",
+            "NoPaginas": "171",
+            "isbn": "978-8415431060",
+            "portada": "https://m.media-amazon.com/images/P/B007FXIHPU.01._SCLZZZZZZZ_SX500_.jpg",
+            "link": "https://es.b-ok.lat/dl/17043647/4d8b1c"
+        },
+    
+        {   "Titulo":" Como un Hombre Piensa <br> así es su Vida",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'>",
+            "Autor": "James Allen." ,
+            "Edicion": "2da edición.",
+            "isbn": "978-8477203865",
+            "NoPaginas": "30",
+            "portada": "https://img.over-blog-kiwi.com/0/84/33/20/20170130/ob_3356dd_dd6a576b5690831811e7430b0b515171.jpg",
+            "link": "https://obtienearchivo.bcn.cl/obtienearchivo?id=documentos/10221.1/66079/1/180710.pdf&origen=BDigital"
+        },
+
+        {   "Titulo": "El Monje que Vendió su Ferrari",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'>",
+            "Autor": "Robin Sharma.",
+            "Edicion": "3ra edición.",
+            "NoPaginas": "135",
+            "isbn": "978-1644730065",
+            "portada": "https://m.media-amazon.com/images/I/41tyvoqNWGL.jpg",
+            "link": "https://ozkarinconsultor.files.wordpress.com/2019/02/el-monje-que-vendio-su-ferrari.pdf"
+        },
+
+        {   "Titulo": "Los dones de la imperfección",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/clasificacion.png' alt='Rate'>",
+            "Autor": "Brené Brown.",
+            "Edicion": "1ra edición.",
+            "NoPaginas": "130",
+            "isbn": "978-8484456568",
+            "portada": "https://m.media-amazon.com/images/P/194199900X.01._SCLZZZZZZZ_SX500_.jpg",
+            "link": "https://drive.google.com/file/d/1mHqaPYP_UQfZzAvVqapU8wJOmqoESUmd/view?usp=sharing"
+        },
+
+        {    
+            "Titulo": "Padre rico, padre pobre",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'>",
+            "Autor": "Robert Kiyosaki.",
+            "Edicion": "2da edición.",
+            "NoPaginas": "232",
+            "isbn": "978-3862486328",
+            "portada": "https://m.media-amazon.com/images/I/51y514I8IdL.jpg",
+            "link": "https://www.unpa.edu.mx/~blopez/algunosLibros/Padre-Rico-Padre-Pobre.pdf"
+        },
+
+        {
+            "Titulo": "El hombre en busca de sentido",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'>",
+            "Autor": "Viktor Frankl.",
+            "Edicion": "12va edición.",
+            "NoPaginas": "69",
+            "isbn": "84-254-1101-7",
+            "portada": "https://m.media-amazon.com/images/P/B019H695T4.01._SCLZZZZZZZ_SX500_.jpg",
+            "link": "https://www.inaes.edu.py/application/files/6515/8516/6361/RESILIENCIA._FRANKL_VIKTOR_-1979_-_EL_HOMBRE_EN_BUSCA_DE_SENTIDO.pdf"
+        },
+
+        {
+            "Titulo": "El Alquimista",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'>",
+            "Autor": "Paulo Coelho.",
+            "Edicion": "Decimo Aniversario.",
+            "NoPaginas": "112",
+            "isbn": "978-0062511409",
+            "portada": "https://m.media-amazon.com/images/I/41LfYrZSQML.jpg",
+            "link": "http://www.om3.org/upload/spain/paulocoelho_elalquimista.pdf"
+        },
+
+        {
+            "Titulo": "The Mountain Is You",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/clasificacion.png' alt='Rate'>",
+            "Autor": "Brianna Wiest.",
+            "Edicion": "3ra edición.",
+            "NoPaginas": "240",
+            "isbn": "978-1949759228",
+            "portada": "https://m.media-amazon.com/images/I/41N62t+ANTL.jpg",
+            "link": "https://drive.google.com/file/d/16DmwWDpa7KyErbKScHHfs2KSH7aglgOv/view?usp=sharing"
+        }
+
+]);
+
+librosCienMat([
+        {
+            "Titulo":" Thinking in Systems",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/clasificacion.png' alt='Rate'>",
+            "Autor": "Donella H. Meadows",
+            "Edicion": "2da edición",
+            "NoPaginas": "235",
+            "isbn": "978-1603580557",
+            "portada": "https://m.media-amazon.com/images/I/51q+TMvkNFL.jpg",
+            "link":"https://wtf.tw/ref/meadows.pdf"
+        },
+        {
+            "Titulo": "Infinite Powers",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'>",
+            "Autor": "Steven H. Strogatz",
+            "Edicion": "6ta edición",
+            "NoPaginas": "390",
+            "isbn": "978-1328879981",
+            "portada": "https://m.media-amazon.com/images/I/51Q0+DRzYUL.jpg",
+            "link": "https://drive.google.com/file/d/1X2VHH_k7uf80X2DJq2EkGeQLchb9R7Ny/view?usp=sharing"
+        },
+        {
+            "Titulo": "A Brief History of Time",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/clasificacion.png' alt='Rate'>",
+            "Autor": "Stephen Hawking",
+            "Edicion": "1ra edición",
+            "NoPaginas": "1157",
+            "isbn": "978-0553109535",
+            "portada": "https://m.media-amazon.com/images/P/0553380168.01._SCLZZZZZZZ_SX500_.jpg",
+            "link": "https://drive.google.com/file/d/1EWkAE6zftK8T4V7nGztTtqsB50gyavTx/view?usp=sharing"
+        },
+        {
+            "Titulo": "The Three Waves of Volunteers and the New Earth",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> ",
+            "Autor": "Dolores Cannon",
+            "Edicion": "1ra edición",
+            "NoPaginas": "490",
+            "isbn": "978-1886940154",
+            "portada": "https://m.media-amazon.com/images/I/41GfqyW3dOL.jpg",
+            "link": "https://drive.google.com/file/d/1YO5mSadeZcd73HBVUZUp45aHvISw1gSo/view?usp=sharing"
+        },
+        {
+            "Titulo": "Between Death and Life",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'>",
+            "Autor": "Dolores Cannon",
+            "Edicion": "2da edición",
+            "NoPaginas": "260",
+            "isbn": "978-1940265001",
+            "portada": "https://m.media-amazon.com/images/I/51Ns1yJW4pL._SY346_.jpg",
+            "link": "https://drive.google.com/file/d/1XH74LFtC3jVzNo3PG1kFBcZ-gkWS3M5k/view?usp=sharing"
+        },
+        {
+            "Titulo": "Fingerprints of the Gods",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'>",
+            "Autor": "Graham Hancock",
+            "Edicion": "3ra edición",
+            "NoPaginas": "488",
+            "isbn": "978-1606710654",
+            "portada": "https://m.media-amazon.com/images/I/51+Nj26xH0L._SY346_.jpg",
+            "link": "http://megpugh.com/files/Graham_Hancock_FINGERPRINTS_OF_THE_GODS.pdf"
+        },
+        {
+            "Titulo": "The Order of Time",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'>",
+            "Autor": "Carlo Rovelli",
+            "Edicion": "8va edición",
+            "NoPaginas": "160",
+            "isbn": "978-0735216105",
+            "portada": "https://m.media-amazon.com/images/I/41HQuvVQWbL.jpg",
+            "link": "https://psi1.ir/wp-content/uploads/2021/09/The-order-of-time-Carlo-Rovelli.pdf"
+        },
+        {
+            "Titulo": "The Future of Humanity",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/clasificacion.png' alt='Rate'>",
+            "Edicion": "5ta edición",
+            "NoPaginas": "342",
+            "isbn": "978-0385542760",
+            "portada": "https://m.media-amazon.com/images/I/51xh82rUnAL.jpg",
+            "link": "https://drive.google.com/file/d/14tv6w4bLyV8VAOI9uoec5w_3pHC7on-V/view?usp=sharing"
+        }
+]);
+
+librosHistoria([
+        {
+            "Titulo": "The War on the West",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/clasificacion.png' alt='Rate'>",
+            "Autor": "Douglas Murray",
+            "Edicion": "3ra edición",
+            "NoPaginas": "277",
+            "isbn": "978-0063162020",
+            "portada": "https://m.media-amazon.com/images/I/41jD0pFEmVL.jpg",
+            "link": "https://drive.google.com/file/d/1hs5CNXlT5jqP0WqAGIs_brckUEHLTgU8/view?usp=sharing"
+        },
+        {   
+            "Titulo": "Man's Search for Meaning",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/clasificacion.png' alt='Rate'>",
+            "Autor": "Viktor E. Frankl",
+            "Edicion": "7ma edición",
+            "NoPaginas": "192",
+            "isbn": "978-0807014271",
+            "portada": "https://m.media-amazon.com/images/I/416j8pAe3qL.jpg",
+            "link": "https://edisciplinas.usp.br/pluginfile.php/3403095/mod_resource/content/1/56ViktorFrankl_Mans%20Search.pdf"
+        },
+        {   
+            "Titulo": "The Rise and Fall of the Third Reich",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'>",
+            "Autor": "William L. Shirer",
+            "Edicion": "3ra edición",
+            "NoPaginas": "1039",
+            "isbn": "978-1451651683",
+            "portada": "https://m.media-amazon.com/images/I/51opIrpMzjL.jpg",
+            "link": "http://elibrary.bsu.edu.az/files/books_400/N_389.pdf"
+        },
+        {   
+            "Titulo": "The Colony",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'>",
+            "Autor": "Sally Denton",
+            "Edicion": "9na edición",
+            "NoPaginas": "290",
+            "isbn": "978-1631498077",
+            "portada": "https://m.media-amazon.com/images/I/91pVY5YvMrL._AC_UL480_QL65_.jpg",
+            "link": "https://drive.google.com/file/d/13hqSNiQI8gWg8yaEJG4I4GEINl81F9pq/view?usp=sharing"
+        },
+        {   
+            "Titulo": "The Devil in the White City",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'>",
+            "Autor": "Erik Larson",
+            "Edicion": "4ta edición",
+            "NoPaginas": "465",
+            "isbn": "978-0609608449",
+            "portada": "https://m.media-amazon.com/images/I/51hIt8eZKWL.jpg",
+            "link": "https://img.4plebs.org/boards/tg/image/1460/01/1460014686260.pdf"
+        },
+        {   
+            "Titulo": "Band of Brothers",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/clasificacion.png' alt='Rate'>",
+            "Autor": "Stephen E. Ambrose",
+            "Edicion": "15va edition",
+            "NoPaginas": "133",
+            "isbn": "978-1471170058",
+            "portada": "https://m.media-amazon.com/images/I/51ABqKdrRnL.jpg",
+            "link": "https://cdn.preterhuman.net/texts/literature/general/Ambrose_Stephen/Ambrose,%20Stephen%20-%20Band.of.Brothers.pdf"
+        },
+        {   
+            "Titulo": "Killers of the Flower Moon",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'>",
+            "Autor": "David Grann",
+            "Edicion": "8va edicion",
+            "NoPaginas": "374",
+            "isbn": "978-0307742483",
+            "portada": "https://m.media-amazon.com/images/I/51PP3iTK8DL.jpg",
+            "link": "https://xn--webducation-dbb.com/wp-content/uploads/2020/02/Killers-of-the-Flower-Moon_-The-Osage-Murders-and-the-Birth-of-the-FBI-PDFDrive.com-.pdf"
+        },
+        {   
+            "Titulo": "The Premonition: A Pandemic Story",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/clasificacion.png' alt='Rate'>",
+            "Autor": "Michael Lewis",
+            "Edicion": "2da edición",
+            "NoPaginas": "246",
+            "isbn": "978-1324035534",
+            "portada": "https://m.media-amazon.com/images/I/4162+av4dyL.jpg",
+            "link": "https://drive.google.com/file/d/13mX61VS7B9sm8SiX1T-X_liW1d7FapKw/view?usp=sharing"
+        },
+        {  
+            "Titulo": "The Warmth of Other Suns",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'>",
+            "Autor": "Isabel Wilkerson",
+            "Edicion": "14va edición",
+            "NoPaginas": "588",
+            "isbn": "978-0679763888",
+            "portada": "https://m.media-amazon.com/images/I/61IBluU1ZiL.jpg",
+            "link": "https://eddierockerz.files.wordpress.com/2020/11/the-warmth-of-other-suns-the-epic-story-of-americas-great-migration-pdfdrive-.pdf"
+        },
+        {   
+            "Titulo": "The Last Castle",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/clasificacion.png' alt='Rate'>",
+            "Autor": "Denise Kiernan",
+            "Edicion": "2da edición",
+            "NoPaginas": "393",
+            "isbn": "978-1476794044",
+            "portada": "https://m.media-amazon.com/images/I/51FFxm0pkVL.jpg",
+            "link": "https://drive.google.com/file/d/1i_I3Bjsy9WkTnAChX-eWc8ImDF48j4V3/view?usp=sharing"
+        }    
+]);
+
+librosTecnologia([
+        {
+            "Titulo": "Homo Deus",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'>",
+            "Autor": "Yuval Noah Harari",
+            "Edicion": "3ra edición",
+            "NoPaginas": "508",
+            "isbn": "978-2226425676",
+            "portada": "https://m.media-amazon.com/images/I/4125xFvSS3L.jpg",
+            "link": "http://www.pratec.org/wpress/pdfs-pratec/Homo-Deus.pdf"
+        },
+        {
+            "Titulo": "Fundamentals of Data Engineering",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/clasificacion.png' alt='Rate'>",
+            "Autor": "Matt Housley",
+            "Edicion": "1ra edicion",
+            "NoPaginas": "544",
+            "isbn":  "978-1098108304",
+            "portada": "https://m.media-amazon.com/images/I/41BCu6h1rWL.jpg",
+            "link": "https://drive.google.com/file/d/1MmDEQA7nAk74Nw0LJ0Q54jDolq_APxv6/view?usp=sharing"
+        },
+        {   
+            "Titulo": "Becoming a Data Head",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/clasificacion.png' alt='Rate'>",
+            "Autor": "Jordan Goldmeier",
+            "Edicion": "1ra edición",
+            "NoPaginas": "268",
+            "isbn": "978-1119741749",
+            "portada": "https://m.media-amazon.com/images/I/41dgU6JjOWS.jpg",
+            "link": "https://drive.google.com/file/d/19s95EykHblf_zxfO2gY65BbUOJXYXVii/view?usp=sharing"
+        },
+        {   
+            "Titulo": "Eloquent Javascript",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'>",
+            "Autor": "Marijn Haverbeke",
+            "Edicion": "3ra edición",
+            "NoPaginas": "700",
+            "isbn": "978-1593279516", 
+            "portada": "https://eloquentjavascript.net/img/cover.jpg",
+            "link": "https://eloquentjavascript.net/Eloquent_JavaScript_small.pdf"
+        },
+        {   
+            "Titulo": "Practical Web Design for Absolute Beginners",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/clasificacion.png' alt='Rate'>",
+            "Autor": "Adrian W. West",
+            "Edicion": "4ta edición",
+            "NoPaginas": "482",
+            "isbn": "978-1484219928",
+            "portada": "https://m.media-amazon.com/images/I/41r8kLOZCVL.jpg",
+            "link": "https://drive.google.com/file/d/1kQK0e_MxoOcVYNWeRexCofbbPQ0ekqf2/view?usp=sharing"
+        },
+        {   
+            "Titulo": "Node.js Web Development",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'>",
+            "Autor": "David Herron",
+            "Edicion": "3ra edición",
+            "NoPaginas": "376",
+            "isbn": "978-1838987572",
+            "portada": "https://m.media-amazon.com/images/I/41e+IedpQXL.jpg",
+            "link": "https://drive.google.com/file/d/1f5opG6cHM8bJ7mMFH25UtqrH9SexSx2z/view?usp=sharing",
+        },
+        {   
+            "Titulo": "jQuery in Action",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/clasificacion.png' alt='Rate'>",
+            "Autor": "Bear Bibeault",
+            "Edicion": "3ra edición",
+            "NoPaginas": "377",
+            "isbn": "978-1617292071",
+            "portada": "https://m.media-amazon.com/images/I/411J9dsrKwL.jpg",
+            "link": "https://docs.niwa.co.nz/library/public/1933988355update.pdf"
+        },
+        {   
+            "Titulo": "Learning SQL",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'>",
+            "Autor": "Alan Beaulieu",
+            "Edicion": "3ra edición",
+            "NoPaginas": "380",
+            "isbn": "978-1492057611",
+            "portada": "https://learning.oreilly.com/library/cover/9781492057604/250w/",
+            "link": "https://www.cuteboyprogrammers.com/pdf/humblebundle/learningsql3e.pdf"
+        },
+        {   
+            "Titulo": "Vida 3.0",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/clasificacion.png' alt='Rate'>",
+            "Autor": "Max Tegmark",
+            "Edicion": "5ta edición",
+            "NoPaginas": "425",
+            "isbn": "978-8430619627",
+            "portada": "https://m.media-amazon.com/images/I/51e31g9GXhL.jpg",
+            "link": "https://www.foruq.com/books/es/xyz/8/Vida-3-0-Max-Tegmark.pdf"
+        },
+        {   
+            "Titulo": "De Cero a Uno",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/clasificacion.png' alt='Rate'>",
+            "Autor": "Peter Thiel",
+            "Edicion": "6ta edición",
+            "NoPaginas": "120",
+            "isbn": "978-8498754902",
+            "portada": "https://m.media-amazon.com/images/I/51TBx03s64L.jpg",
+            "link": "https://theoffice.pe/wp-content/uploads/De%20Cero%20a%20Uno%20Como%20Inventar%20-%20Peter%20Thiel%20VL.pdf"
+        }
+]);
+
+librosCienFicFant([
+        {
+            "Titulo": "The Law: A Dresden Files Novella",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'>",
+            "Autor": "Jim Butcher",
+            "Edicion": "1ra edición",
+            "NoPaginas": "115",
+            "isbn": "B09Y26JXWM",
+            "portada": "https://m.media-amazon.com/images/I/41sF4q37X7L.jpg",
+            "link": "https://drive.google.com/file/d/11W5J2Iy9HCqqAKnlekdTK1CLkv4t4aW8/view?usp=sharing"
+        },
+        {
+            "Titulo": "Harry Potter and the Philosopher's Stone",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/clasificacion.png' alt='Rate'>",
+            "Autor": "J.K Rowling",
+            "Edicion": "2da edición",
+            "NoPaginas": "168",
+            "isbn": "978-0590353403",
+            "portada": "https://m.media-amazon.com/images/I/51HSkTKlauL.jpg",
+            "link": "https://kidsspark.weebly.com/uploads/5/0/6/5/50658543/harry_potter_annd_the_sorcerers_stone.pdf"
+        },
+        {
+            "Titulo": "Bow Before the Elf Queen",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'>  <img src='./assets/img/clasificacion.png' alt='Rate'>",
+            "Autor": "J.M. Kearl", 
+            "Edicion": "3ra edición",
+            "NoPaginas": "383",
+            "isbn": "979-8431768408",
+            "portada": "https://m.media-amazon.com/images/I/41ghh+WVJEL.jpg",
+            "link": "https://drive.google.com/file/d/1SMOfv29KJ19UQM7F0sLwQQMaNf6efPdN/view?usp=sharing"
+        },
+        {
+            "Titulo": "Lightning",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'>",
+            "Autor": "Dean Koontz",
+            "Edicion": "4ta edición",
+            "NoPaginas": "370",
+            "isbn": "978-1472230287",
+            "portada": "https://m.media-amazon.com/images/I/51UJ1ebhU0L.jpg",
+            "link": "https://drive.google.com/file/d/1nUx3L_GLdCve_2oCJsvw1gnud7p-1p0_/view?usp=sharing"
+        },
+        {
+            "Titulo": "Dreadgod",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/clasificacion.png' alt='Rate'>",
+            "Autor": "Will Wight",
+            "Edicion": "11va edición",
+            "NoPaginas": "452",
+            "isbn": "979-8400100543",
+            "portada": "https://m.media-amazon.com/images/I/41sKq+86MZL._SY346_.jpg",
+            "link": "https://drive.google.com/file/d/1ECo3BBr5RlA-bWVfDGmZL-vhJ7T69uBO/view?usp=sharing"
+        },
+        {
+            "Titulo": "Upgrade: A Novel",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'>",
+            "Autor": "Blake Crouch",
+            "Edicion": "10ma edición",
+            "NoPaginas": "288",
+            "isbn": "978-0593609309",
+            "portada": "https://m.media-amazon.com/images/I/41T+5n666wL.jpg",
+            "link": "https://drive.google.com/file/d/11aoo1fUibsBmmdq-LI_npaM_9yPKKuFA/view?usp=sharing"
+        },
+        {
+            "Titulo": "Chrysalis: A Thriller",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'>",
+            "Autor": "Jeremy Logan",
+            "Edicion": "6ta edición",
+            "NoPaginas": "308",
+            "isbn": "978-0593608067",
+            "portada": "https://m.media-amazon.com/images/I/41-0o5zHhML.jpg",
+            "link": "https://drive.google.com/file/d/1lCp2RkMHQ3VBp8sLUisDKynjKVueK48_/view?usp=sharing"
+        },
+        {
+            "Titulo": "The Never King",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'><img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/clasificacion.png' alt='Rate'>",
+            "Autor": "Nikki St. Crowe",
+            "Edicion": "2da edición",
+            "NoPaginas": "204",
+            "isbn": "979-8985421217",
+            "portada": "https://m.media-amazon.com/images/I/51NMJV1taQL.jpg",
+            "link": "https://drive.google.com/file/d/10DHDueeJVePTqxwtnd0mcOWOmmlGlFY-/view?usp=sharing"
+        },
+        {
+            "Titulo": "A Court of Mist and Fury",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'>  <img src='./assets/img/clasificacion.png' alt='Rate'>",
+            "Autor": "Sarah J. Maas",
+            "Edicion": "2da edición",
+            "NoPaginas": "669",
+            "isbn": "978-1635575583",
+            "portada": "https://m.media-amazon.com/images/I/515sk-V3QDL.jpg",
+            "link": "https://pdflake.com/wp-content/uploads/2021/07/A-Court-of-Mist-and-Fury-PDF-Book.pdf"
+        },
+        {
+            "Titulo": "A Game of Thrones",
+            "Star": "<img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'> <img src='./assets/img/estrella.png' alt='Rate'>",
+            "Autor":" George R.R. Martin",
+            "Edicion": "1ra edición",
+            "NoPaginas": "755",
+            "isbn": "978-0553103540",
+            "portada": "https://images-na.ssl-images-amazon.com/images/I/91dSMhdIzTL.jpg",
+            "link": "https://www.nothuman.net/images/files/discussion/2/1815b71a2e633176b1c509f3a186605b.pdf"
+        },
+])

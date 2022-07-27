@@ -1,0 +1,143 @@
+:root {
+  --backgroud-blanco: #ffffff;
+
+  --fuente-azul: #293855;
+  --fuente-naranja: #f2ac20;
+
+  --notch-card-hero-display: rgb(0, 0, 0, 75%);
+
+  --boton-azul: #4265d6;
+  --boton-azul--blur: #4264d6df;
+
+  --input-background: rgba(246, 232, 223, 0.7);
+
+  --sombra-negra--externa: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  --sombra-cards: 0 4px 8px rgba(0, 0, 0, 0.2);
+  --sombra-negra--interna: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  --sombra-cardPopulares_adquisiciones: 0px 0px 4px 1.5px rgba(0, 0, 0, 0.25);
+
+  --marcador-naraja: #f2ac20;
+
+  --Outfit: "Outfit", "Poppins", "Montserrat";
+  --tipografia-descripcion: "Bree Serif";
+}
+
+* {
+  font-family: var(--Outfit);
+}
+
+body {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #4884ee 50%, #4ab4de 50%);
+}
+
+.container__newLibro {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 3rem;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+}
+
+.titulo__AgregarLibro {
+  font-size: 2rem;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.label__Cat {
+  color: #ffffff;
+}
+
+.categoriaDeLibro {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 99%;
+}
+
+.inputs__catch-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.input {
+  width: 85%;
+  height: 3.5vh;
+  margin: auto;
+  border-radius: 10px;
+  border: 2px solid #bdbdbd;
+  color: #3c3c3c;
+  font-size: 0.9rem;
+  padding: 0 1rem;
+}
+
+.label-img {
+  margin: auto;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.label-img:hover {
+  font-size: 1.3rem;
+}
+
+.input__Portada___Imagen-Libro {
+  width: 85%;
+  height: 3vh;
+  margin: auto;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.input__Submit-Libro {
+  width: 90%;
+  height: 5vh;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #4884ee;
+  margin: auto;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  -webkit-transition: 0.4s ease-in-out;
+  border: none;
+}
+
+.input__Submit-Libro:hover {
+  color: var(--boton-azul);
+}
+
+.return-index {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.return-index lord-icon {
+  transform: rotate(180deg) translate(10rem);
+  cursor: pointer;
+  position: relative;
+}

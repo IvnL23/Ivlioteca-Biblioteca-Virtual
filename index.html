@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivlioteca | Biblioteca Virtual</title>
+    <link rel="shortcut icon" href="./assets/img/biblioteca.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/sliders.css">
+    <link rel="stylesheet" href="./assets/css/rating.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./assets/css/movilMenu.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Karla:wght@400;500;700&family=Montserrat:wght@300;400;500;700&family=Neuton:ital,wght@0,700;1,400&family=Outfit:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header__container">
+        <div class="header__logoTitle-container ">
+            <img src="./assets/img/biblioteca.png" alt="Ivlioteca Icon" class="header__logo">
+            <h1 class="header__titulo">Ivlioteca</h1>
+        </div>
+        
+        <div class="header__inpbtnimg-container">
+            <div class="search__box">
+            <input type="text" placeholder="Buscar libro..." maxlength="100" class="searchInput">
+            <a href="#" class="icon___search">
+                <i class="fas fa-search"></i>
+            </a>
+        </div>      
+
+        <button class="btn header__btn-SignIn" onclick="openSignIn()">Inicia sesión</button>
+        <button class="btn header__btn-LogIn" onclick="openLogIn()">Registrate</button>
+        <p class="user_ID"></p>
+        <img src="./assets/img/user.png" alt="Avatar" class="header__Avatar">
+
+        <div class="header__hamburguer___menu">
+
+            <input type="checkbox" name="" id="check">
+
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars menu-icon fa-2x"></i>
+            </label>
+
+            <ul>
+                <li><button class="ham-link" onclick="openSignIn()">Inicia Sesión</button></li>
+                <li><button href="" class="ham-link" onclick="openLogIn()">Registrate</button></li>
+                <li><button href="" class="ham-link">Premium</button></li>
+                <li><button href="./acercaDe.html" class="ham-link">Acerda de</button></li>
+                <li><i class="fa-solid fa-user"></i><p class="user_ID___Ham"></p></li>
+            </ul>
+        </div>
+        </div>
+
+        
+    </header>
+    <main>
+        <section class="main__container">
+        <div class="hero">
+            <div class="hero__populares">
+                <div class="hero__populares___titulo">
+                    <h2 class="populares__titulo">Populares</h2>
+                </div>
+
+                <div class="hero__slider slider">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="https://www.economicas.unsa.edu.ar/afinan/informacion_general/book/piense_y_hagase_rico.pdf" target="_blank" rel="noopener noreferrer">
+                                    <img src="https://m.media-amazon.com/images/I/517rvqoxrhL.jpg" alt="Piense y Hagase Rico" class="hero__slider__imagen">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.pratec.org/wpress/pdfs-pratec/Homo-Deus.pdf" target="_blank" rel="noopener noreferrer">
+                                    <img src="https://m.media-amazon.com/images/I/4125xFvSS3L.jpg" alt="Homo Deus" class="hero__slider__imagen">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://kidsspark.weebly.com/uploads/5/0/6/5/50658543/harry_potter_annd_the_sorcerers_stone.pdf" target="_blank" rel="noopener noreferrer">
+                                    <img src="https://m.media-amazon.com/images/I/51HSkTKlauL.jpg" alt="Harry Potter and the Philosopher's Stone" class="hero__slider__imagen">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://psi1.ir/wp-content/uploads/2021/09/The-order-of-time-Carlo-Rovelli.pdf" target="_blank" rel="noopener noreferrer">
+                                    <img src="https://m.media-amazon.com/images/I/41HQuvVQWbL.jpg" alt="The Order of the Time" class="hero__slider__imagen">
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="hero__nuevasAdquisiciones nuevasAdquisiciones__tablet-desktop">
+                <div class="hero__nuevasAdquisiciones__titulo">
+                    <h2 class="nuevasAdquisiciones__titulo">Nuevas Adquisiciones</h2>
+                </div>
+
+                <div class="hero__slider2 slider2">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="https://drive.google.com/file/d/1hs5CNXlT5jqP0WqAGIs_brckUEHLTgU8/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                    <img src="https://m.media-amazon.com/images/I/41jD0pFEmVL.jpg" alt="The war on the west">
+                                </a>  
+                                
+                                <a href="https://drive.google.com/file/d/1MmDEQA7nAk74Nw0LJ0Q54jDolq_APxv6/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                    <img src="https://m.media-amazon.com/images/I/41BCu6h1rWL.jpg" alt="Fundamentals of data engineering" class="hero__carousel">
+                                </a>
+                                 
+                                <a href="http://" target="_blank" rel="noopener noreferrer">
+                                    <img src="https://eloquentjavascript.net/img/cover.jpg" alt="eloquentjavascript">
+                                </a>   
+
+                            </li>
+                            <li>
+                                <a href="http://megpugh.com/files/Graham_Hancock_FINGERPRINTS_OF_THE_GODS.pdf" target="_blank" rel="noopener noreferrer">
+                                    <img src="https://m.media-amazon.com/images/I/51+Nj26xH0L._SY346_.jpg" alt="Fingerprints of the Gods">
+                                </a>
+
+                                <a href="https://www.foruq.com/books/es/xyz/8/Vida-3-0-Max-Tegmark.pdf" target="_blank" rel="noopener noreferrer">
+                                    <img src="https://m.media-amazon.com/images/I/51e31g9GXhL.jpg" alt="Vida 3.0" class="hero__carousel">
+                                </a>    
+
+                                <a href="https://drive.google.com/file/d/11aoo1fUibsBmmdq-LI_npaM_9yPKKuFA/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                    <img src="https://m.media-amazon.com/images/I/41T+5n666wL.jpg" alt="Upgrade: A Novel">
+                                </a> 
+                            </li>
+                            <li>
+                                <a href="https://theoffice.pe/wp-content/uploads/De%20Cero%20a%20Uno%20Como%20Inventar%20-%20Peter%20Thiel%20VL.pdf" target="_blank" rel="noopener noreferrer">
+                                    <img src="https://m.media-amazon.com/images/I/51TBx03s64L.jpg" alt="De Cero a Uno" srcset="">
+                                </a>  
+                                    
+                                <a href="https://drive.google.com/file/d/10DHDueeJVePTqxwtnd0mcOWOmmlGlFY-/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                    <img src="https://m.media-amazon.com/images/I/51NMJV1taQL.jpg" alt="The Never King" class="hero__carousel">
+                                </a>    
+                                    
+                                <a href="http://" target="_blank" rel="noopener noreferrer">
+                                    <img src="https://m.media-amazon.com/images/I/51hIt8eZKWL.jpg" alt="The Devil in the White City">
+                                </a> 
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="hero__nuevasAdquisiciones nuevasAdquisiciones_movil">
+                <div class="hero__nuevasAdquisiciones__titulo">
+                    <h2 class="nuevasAdquisiciones__titulo">Nuevas Adquisiciones</h2>
+                </div>
+
+                <div class="hero__slider3 slider3">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="https://drive.google.com/file/d/1hs5CNXlT5jqP0WqAGIs_brckUEHLTgU8/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                    <img src="https://m.media-amazon.com/images/I/41jD0pFEmVL.jpg" alt="The war on the west">
+                                </a>  
+                            </li>
+
+                            <li>
+                                <a href="https://drive.google.com/file/d/1MmDEQA7nAk74Nw0LJ0Q54jDolq_APxv6/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                    <img src="https://m.media-amazon.com/images/I/41BCu6h1rWL.jpg" alt="Fundamentals of data engineering">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://" target="_blank" rel="noopener noreferrer">
+                                    <img src="https://eloquentjavascript.net/img/cover.jpg" alt="eloquentjavascript">
+                                </a>   
+                            </li>
+                            <li>
+                                <a href="http://megpugh.com/files/Graham_Hancock_FINGERPRINTS_OF_THE_GODS.pdf" target="_blank" rel="noopener noreferrer">
+                                    <img src="https://m.media-amazon.com/images/I/51+Nj26xH0L._SY346_.jpg" alt="Fingerprints of the Gods">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.foruq.com/books/es/xyz/8/Vida-3-0-Max-Tegmark.pdf" target="_blank" rel="noopener noreferrer">
+                                    <img src="https://m.media-amazon.com/images/I/51e31g9GXhL.jpg" alt="Vida 3.0">
+                                </a>    
+                            </li>
+                            <li>
+                                <a href="https://drive.google.com/file/d/11aoo1fUibsBmmdq-LI_npaM_9yPKKuFA/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                    <img src="https://m.media-amazon.com/images/I/41T+5n666wL.jpg" alt="Upgrade: A Novel">
+                                </a> 
+                            </li>
+                            <li>
+                                <a href="https://theoffice.pe/wp-content/uploads/De%20Cero%20a%20Uno%20Como%20Inventar%20-%20Peter%20Thiel%20VL.pdf" target="_blank" rel="noopener noreferrer">
+                                    <img src="https://m.media-amazon.com/images/I/51TBx03s64L.jpg" alt="De Cero a Uno" srcset="">
+                                </a>  
+                            </li>   
+                            <li>  
+                                <a href="https://drive.google.com/file/d/10DHDueeJVePTqxwtnd0mcOWOmmlGlFY-/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                    <img src="https://m.media-amazon.com/images/I/51NMJV1taQL.jpg" alt="The Never King">
+                                </a>    
+                            </li>  
+                            <li>
+                                <a href="http://" target="_blank" rel="noopener noreferrer">
+                                    <img src="https://m.media-amazon.com/images/I/51hIt8eZKWL.jpg" alt="The Devil in the White City">
+                                </a> 
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section class="catalago">
+            <h3 class="catalago__Titulo">Catálogo</h3>
+            <nav class="catalogo__navegacion">
+                <ul>
+                    <li class="catalago__categoria accttvv" id="CienMat"><button onclick="openCienMat()">Ciencia y Matemáticas</button></li>
+                    <li class="catalago__categoria accttvv" id="AutoAyuda"><button onclick="openAutoAyuda()">Autoayuda</button></li>
+                    <li class="catalago__categoria accttvv" id="Tecno"><button onclick="openTecno()">Tecnología</button></li>
+                    <li class="catalago__categoria accttvv" id="Historia"><button onclick="openHistoria()">Historia</button></li>
+                    <li class="catalago__categoria accttvv" id="CienficFant"><button onclick="openCienficFant()">Ciencia ficción y Fantasía</button></li>
+                </ul>
+            </nav>
+
+            <div class="catalogo__tarjetas___libros libros__autoayuda" id="libros__autoayuda"></div>
+            <div class="catalogo__tarjetas___libros libros__cienciamat" id="libros__cienciamat"></div>
+            <div class="catalogo__tarjetas___libros libros__tecnologia" id="libros__tecnologia"></div>
+            <div class="catalogo__tarjetas___libros libros__historia" id="libros__historia"></div>
+            <div class="catalogo__tarjetas___libros libros__cienciaficfant" id="libros__cienciaficfant"></div>
+        </section>
+
+         <section class="rating__Panel overlay"> 
+            <section class="comentar__principal">
+                <div class="cont__estrella-exit">
+                <div class="contenedor-estrella">
+                  <img id="img-estrella" src="./assets/img/estrella.png" alt="Estrella" />
+                </div>
+
+                <div class="rating__exit">
+                    <lord-icon
+                        src="https://cdn.lordicon.com/vfzqittk.json"
+                        trigger="hover"
+                        colors="primary:#3C3C3C"
+                        state="hover-1"
+                        style="width:52px;height:52px" class="btn__Exit" onclick="exitUnCommentDisplay()">
+                    </lord-icon>
+                </div>
+            </div>
+
+                   
+      
+                <div class="rating-text">
+                  <h5 class="pregunta">Califica este libro</h5>
+                  <p class="Parrafo-comentario">
+                    Cuéntanos sobre tu experiencia con este libro y como te sientes luego de leerlo.
+                  </p>
+                  
+                  <textarea name="txtArea" id="txtA__comentario" cols="60" rows="6" maxlength="1000" ></textarea>
+      
+                  <div class="contenedor-lista">
+                    <button class="btnScore activo" id="botn1">1</button>
+                    <button class="btnScore activo" id="botn2">2</button>
+                    <button class="btnScore activo" id="botn3">3</button>
+                    <button class="btnScore activo" id="botn4">4</button>
+                    <button class="btnScore activo" id="botn5">5</button>
+                  </div>
+                </div>
+      
+                <div class="contenedor-btoEnviar">
+                  <button class="btnSubmit" id="btnSubmit">Calificar</button>
+                </div>
+              </section>
+        </section>
+
+        <section class="Sign__Overlay">
+            <div class="SignIn">
+                    <div class="SignIn__Title">
+                        <h6 >Inicia Sesión</h6> 
+                        <lord-icon
+                        src="https://cdn.lordicon.com/vfzqittk.json"
+                        trigger="hover"
+                        colors="primary:#3c3c3c"
+                        state="hover-1"
+                        style="width:40px;height:40px" class="log__Exit" onclick="closeSignIn()">
+                        </lord-icon></div>
+                    
+                    <div class="LogContent">
+                        <div class="logContent__Brands">
+                            <button class="SignIn__Google buttonLog" type="button"><img src="https://lordicon.com/assets/images/brand-google.svg" alt="Google"> Inicia Sesión con Google</button>
+                            <button class="SignIn__Facebook buttonLog" type="button"> <img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" alt="Facebook"> Inicia Sesión con Facebook</button>
+                        </div>
+                        <p class="Log__o">o</p>
+                        <form action="" method="post" class="form__signIn">
+                            <input type="email" name="emailRequest" id="Users__Input___email-sign" class="Users__Input___email inputLog" placeholder="Correo electrónico" required>
+                            <input type="password" name="pswRequest" id="Users__Input___psw-sign" class="Users__Input___psw inputLog" placeholder="Contraseña" required>
+                            <input type="submit" value="Inicia Sesión" class="Log__submit___btn">
+                        </form>
+                        <a class="pswRecovery">¿Olvidó su contraseña?</a>
+                        <p class="logQuestion">¿Aún no tienes cuenta? <a class="redirectToLogIn" onclick="exitAndOpenLogIn()">Regístrese</a>.</p>
+                    </div>
+                </form>
+            </div>
+        </section>
+            
+        <section class="Log__Overlay">
+            <div class="LogIn">
+                <div class="LogIn__Title">
+                    <h6>Únete</h6>
+                    <lord-icon
+                        src="https://cdn.lordicon.com/vfzqittk.json"
+                        trigger="hover"
+                        colors="primary:#3c3c3c"
+                        state="hover-1"
+                        style="width:40px;height:40px" class="log__Exit" onclick="closeLogIn()">
+                        </lord-icon></div>
+                
+                <div class="LogContent">
+                    <div class="logContent__Brands">
+                        <button class="LogIn__Google buttonLog" type="button"><img src="https://lordicon.com/assets/images/brand-google.svg" alt="Google">Registrate con Google</button>
+                        <button class="LogIn__Facebook buttonLog" type="button"> <img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" alt="Facebook">Registrate con Facebook</button>
+                    </div>
+
+                    <p class="Log__o">o</p>
+                    <form action="" method="post" class="form__LogIn">
+                        <input type="email" name="emailRequestlog" id="Users__Input___email-log" class="Users__Input___email inputLog" placeholder="Correo electrónico" required>
+                        <input type="password" name="pswRequestlog" id="Users__Input___psw-log" class="Users__Input___psw inputLog" placeholder="Contraseña" required minlength="8"><br>
+                        <input type="checkbox" name="TermCond" id="Check__Termin___Cond" checked><label for="Check__Termin___Cond" class="Check__Termin___Cond">Acepto los <a href="#">Terminos de Servicio</a> y la <a href="#">Politica de Privacidad.</a></label>
+                        <input type="submit" value="Únete" class="Log__submit___btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer__nameLogo">
+            <img src="./assets/img/biblioteca.png" alt="Logo" class="footer__logo">
+            <h2 class="footer__titulo">Ivlioteca</h2>
+        </div>
+
+        <div class="footer__midle___content">
+    
+            <div class="footer__container___Nav">
+                <nav class="footer__navegacion">
+                    <ul>
+                        <li class="footer__list"><a href="#">Inicio</a></li>
+                        <li class="footer__list"><a href="#">Suscribete a Premium <img src="https://cdn-icons-png.flaticon.com/512/616/616490.png" alt="star"></a></li>
+                        <li class="footer__list"><a href="./acercaDe.html" target="_blank">Acerca de</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="footer__copyright">
+                <p class="copyright__txt">Todos los derechos reservados &copy; 2022.</p>
+            </div>
+        </div>
+
+        <div class="footer__social">
+            <ul>
+                <li class="social__icon ig"><a href="https://www.instagram.com/ivan_leand_23/" target="_blank" rel="noopener noreferrer" class="ico ico__ig"><i class="fa-brands fa-instagram fa-2x" ></i></a></li>
+                <li class="social__icon"><a href="https://github.com/IvnL23" target="_blank" rel="noopener noreferrer" class="ico ico__gth"><i class="fa-brands fa-github-square fa-2x"></i></a></li>
+                <li class="social__icon"><a href="https://www.linkedin.com/in/ivan-marte-frias-a1a206230" target="_blank" rel="noopener noreferrer" class="ico ico__lkd"><i class="fa-brands fa-linkedin fa-2x"></i></a></li>
+            </ul>
+        </div>
+        
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/data.json"></script>
+    <script src="./assets/js/rating.js"></script>
+    <script src="./assets/js/buscarLibros.js"></script>
+    
+</body>
+</html>
