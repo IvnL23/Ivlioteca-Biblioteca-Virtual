@@ -172,7 +172,8 @@
   transition: 0.3s ease-in-out;
 }
 
-.header__btn-LogIn.disablee, .header__btn-SignIn.disable {
+.header__btn-LogIn.disablee,
+.header__btn-SignIn.disable {
   display: none;
 }
 
@@ -471,11 +472,13 @@ footer {
 .footer__logo {
   width: 56.7px;
   height: 56.7px;
+  cursor: pointer;
 }
 
 .footer__titulo {
   margin-left: 0.6rem;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .footer__midle___content {

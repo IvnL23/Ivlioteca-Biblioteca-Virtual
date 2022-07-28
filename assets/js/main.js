@@ -49,7 +49,7 @@ var librosAutoayuda = (datos) => {
 };
 
 var librosCienMat = (datos) => {
-  app.libros = datos; 
+  app.libros = datos;
 
   html = "";
   app.libros.map((libroCienMat) => {
@@ -92,7 +92,7 @@ var librosCienMat = (datos) => {
 };
 
 var librosHistoria = (datos) => {
-  app.libros = datos; 
+  app.libros = datos;
 
   html = "";
   app.libros.map((libroHistoria) => {
@@ -135,7 +135,7 @@ var librosHistoria = (datos) => {
 };
 
 var librosTecnologia = (datos) => {
-  app.libros = datos; 
+  app.libros = datos;
 
   html = "";
   app.libros.map((libroTecnologia) => {
@@ -181,7 +181,7 @@ var librosTecnologia = (datos) => {
 };
 
 var librosCienFicFant = (datos) => {
-  app.libros = datos; 
+  app.libros = datos;
 
   html = "";
   app.libros.map((libroCienFicFant) => {
@@ -270,7 +270,6 @@ function openCienficFant() {
   document.querySelector(".libros__historia").classList.remove("aactv");
   document.querySelector(".libros__cienciaficfant").classList.toggle("acttv");
 }
-
 // --------------------------------Marcar categorias--------------------------------------------------------------------------
 const categoria = document.getElementsByClassName("catalago__categoria");
 document.getElementById("CienficFant").classList.remove("accttvv");
@@ -326,6 +325,14 @@ document.querySelector(".ham-link").addEventListener("click", (e) => {
   e.preventDefault();
 });
 
+function openAcercaDe() {
+  (window.location.href = "./acercaDe.html"), "target='_blank'";
+}
+
+function returnInit() {
+  window.location.href = "#";
+}
+
 // --------------------------------Permitir solo numeros--------------------------------------------------------------------------
 
 function valideKey(evt) {
@@ -377,17 +384,17 @@ document.querySelector(".form__LogIn").addEventListener("submit", (ex) => {
   document.querySelector(".user_ID___Ham").innerHTML = dataSign.emailRequest;
 });
 
-
 // --------------------------------LogIn configuration--------------------------------------------------------------------------
-document.querySelector(".footer__premium___btn").addEventListener("click", (e) => {
-  e.preventDefault();
-});
+document
+  .querySelector(".footer__premium___btn")
+  .addEventListener("click", (e) => {
+    e.preventDefault();
+  });
 
-
-function openPremium(){
+function openPremium() {
   document.querySelector(".premium").classList.toggle("enaable");
 }
 
-function closePremium(){
+function closePremium() {
   document.querySelector(".premium").classList.remove("enaable");
 }
