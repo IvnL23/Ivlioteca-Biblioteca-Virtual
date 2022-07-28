@@ -14,6 +14,11 @@
   z-index: 1010;
 }
 
+.SignIn2.disabble,
+.LogIn2.disabl {
+  display: none;
+}
+
 .Sign__Overlay.activ,
 .Log__Overlay.acti {
   display: flex;
@@ -91,6 +96,7 @@
   justify-content: center;
   align-items: center;
   gap: 5px;
+  font-size: 0.6rem;
 }
 
 .SignIn__Google img,
@@ -107,6 +113,7 @@
   justify-content: center;
   align-items: center;
   gap: 5px;
+  font-size: 0.6rem;
 }
 
 .SignIn__Facebook img,
@@ -127,7 +134,11 @@
   border-radius: 10px;
   color: #3c3c3c;
   padding: 0 1rem;
-  font-size: 1.1rem;
+  font-size: 0.8rem;
+}
+
+.Log__o {
+  margin: 0.4rem;
 }
 
 .Log__submit___btn {
@@ -155,6 +166,10 @@
 .logQuestion {
   margin: 0;
   padding: 0;
+}
+
+.Check__Termin___Cond {
+  font-size: .8rem;
 }
 
 .logQuestion a,

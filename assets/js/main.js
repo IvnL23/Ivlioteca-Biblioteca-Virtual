@@ -49,7 +49,7 @@ var librosAutoayuda = (datos) => {
 };
 
 var librosCienMat = (datos) => {
-  app.libros = datos; //se guardan los libros en la variable general "datos".
+  app.libros = datos; 
 
   html = "";
   app.libros.map((libroCienMat) => {
@@ -92,7 +92,7 @@ var librosCienMat = (datos) => {
 };
 
 var librosHistoria = (datos) => {
-  app.libros = datos; //se guardan los libros en la variable general "datos".
+  app.libros = datos; 
 
   html = "";
   app.libros.map((libroHistoria) => {
@@ -135,7 +135,7 @@ var librosHistoria = (datos) => {
 };
 
 var librosTecnologia = (datos) => {
-  app.libros = datos; //se guardan los libros en la variable general "datos".
+  app.libros = datos; 
 
   html = "";
   app.libros.map((libroTecnologia) => {
@@ -181,7 +181,7 @@ var librosTecnologia = (datos) => {
 };
 
 var librosCienFicFant = (datos) => {
-  app.libros = datos; //se guardan los libros en la variable general "datos".
+  app.libros = datos; 
 
   html = "";
   app.libros.map((libroCienFicFant) => {
@@ -228,7 +228,7 @@ var librosCienFicFant = (datos) => {
 
 // --------------------------------Fin callBack Libros Autoayuda--------------------------------------------------------------------------
 
-// --------------------------------cambio de categoria--------------------------------------------------------------------------
+// --------------------------------Cambio de categoria--------------------------------------------------------------------------
 document.querySelector(".libros__cienciaficfant").classList.toggle("acttv");
 
 function openCienMat() {
@@ -270,6 +270,7 @@ function openCienficFant() {
   document.querySelector(".libros__historia").classList.remove("aactv");
   document.querySelector(".libros__cienciaficfant").classList.toggle("acttv");
 }
+
 // --------------------------------Marcar categorias--------------------------------------------------------------------------
 const categoria = document.getElementsByClassName("catalago__categoria");
 document.getElementById("CienficFant").classList.remove("accttvv");
@@ -353,6 +354,8 @@ document.querySelector(".form__signIn").addEventListener("submit", (e) => {
   } else {
     document.querySelector(".header__btn-LogIn").classList.toggle("disablee");
     document.querySelector(".header__btn-SignIn").classList.toggle("disable");
+    document.querySelector(".SignIn2").classList.toggle("disabble");
+    document.querySelector(".LogIn2").classList.toggle("disabl");
     document.querySelector(".user_ID").classList.toggle("enable");
     document.querySelector(".Sign__Overlay").classList.remove("activ");
     document.querySelector(".user_ID").innerHTML = dataSign.emailRequest;
@@ -366,6 +369,8 @@ document.querySelector(".form__LogIn").addEventListener("submit", (ex) => {
   const dataLog = Object.fromEntries(new FormData(ex.target));
   document.querySelector(".header__btn-LogIn").classList.toggle("disablee");
   document.querySelector(".header__btn-SignIn").classList.toggle("disable");
+  document.querySelector(".SignIn2").classList.toggle("disabble");
+  document.querySelector(".LogIn2").classList.toggle("disabl");
   document.querySelector(".user_ID").classList.toggle("enable");
   document.querySelector(".Log__Overlay").classList.remove("acti");
   document.querySelector(".user_ID").innerHTML = dataLog.emailRequestlog;

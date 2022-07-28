@@ -1,6 +1,6 @@
 var campoFiltro = document.querySelector(".searchInput");
 campoFiltro.addEventListener("input", function () {
-  var libros = document.querySelectorAll(".tarjeta__libro");
+var libros = document.querySelectorAll(".tarjeta__libro");
 
   if (this.value.length > 0) {
     document.querySelector(".libros__cienciamat").classList.toggle("act");
@@ -12,15 +12,13 @@ campoFiltro.addEventListener("input", function () {
       // si el usuario introdujo texto:
       var tarjeta__libro = libros[i];
       var Titulo = tarjeta__libro.querySelector(".libro__Titulo");
-      var nombre = Titulo.textContent; // nombre tomado del paciente en 'x' índice del loop.
       var Autor = tarjeta__libro.querySelector(".libro__Autor");
+      var nombre = Titulo.textContent;
       var nombreAutor = Autor.textContent;
       var expresion = new RegExp(this.value, "i");
-
       if (!expresion.test(nombre)) {
         // si el elemento escrito por el usuario en input no está:
         tarjeta__libro.classList.add("invisible");
-
         if (!expresion.test(nombreAutor)) {
           // si el elemento escrito por el usuario en input no está:
           tarjeta__libro.classList.add("invisible");
@@ -48,4 +46,8 @@ campoFiltro.addEventListener("input", function () {
     }
     document.querySelector(".libros__cienciaficfant").classList.toggle("acttv");
   }
+});
+
+document.querySelector(".icon___search").addEventListener("click", (e) => {
+  e.preventDefault();
 });

@@ -84,7 +84,7 @@
   }
 
   .header__btn-SignIn,
-  .header__btn-LogIn{
+  .header__btn-LogIn {
     display: none;
   }
   .hero {
@@ -261,7 +261,7 @@
   }
   .SignIn,
   .LogIn {
-    width: 21.3rem;
+    width: 23.3rem;
   }
 
   .comentar__principal {
@@ -336,7 +336,7 @@
   }
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 361px) {
   .slider img,
   .slider3 img {
     width: 12.75rem;
