@@ -117,6 +117,10 @@
     margin: 0 0.5rem 2rem 0;
   }
 
+  .premium__container {
+    width: 23.5rem;
+  }
+
   footer {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -356,6 +360,11 @@
   .comentar__principal {
     width: 19rem;
   }
+
+  .premium__container {
+    width: 20.5rem;
+  }
+
 }
 
 @media only screen and (max-height: 600px) {

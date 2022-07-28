@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./assets/css/sliders.css">
     <link rel="stylesheet" href="./assets/css/rating.css">
     <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./assets/css/premium.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -50,9 +51,9 @@
 
             <ul>
                 <li><button class="ham-link SignIn2" type="button" onclick="openSignIn()">Inicia Sesión</button></li>
-                <li><button href="" class="ham-link LogIn2" type="button" onclick="openLogIn()">Registrate</button></li>
-                <li><button href="" class="ham-link" type="button">Premium</button></li>
-                <li><button href="./acercaDe.html" class="ham-link" type="button">Acerda de</button></li>
+                <li><button class="ham-link LogIn2" type="button" onclick="openLogIn()">Registrate</button></li>
+                <li><button class="ham-link" type="button" onclick="openPremium()">Premium</button></li>
+                <li><button class="ham-link" type="button">Acerda de</button></li>
                 <li><i class="fa-solid fa-user"></i><p class="user_ID___Ham"></p></li>
             </ul>
         </div>
@@ -331,6 +332,44 @@
             </div>
         </div>
         </section>
+
+        <section class="premium">
+            <div class="premium__container">
+                <div class="premium__exit">
+                    <lord-icon
+                            src="https://cdn.lordicon.com/vfzqittk.json"
+                            trigger="hover"
+                            colors="primary:#3c3c3c"
+                            state="hover-1"
+                            style="width:40px;height:40px" class="log__Exit" onclick="closePremium()">
+                    </lord-icon>
+                </div>
+                <h4 class="premium__titulo">¡Aquí está el plan, Ivlio!</h4>
+
+                <div class="premium__plan">
+                    <h5>Ideal para los amantes de la lectura.</h5>
+                    <h6 class="plan__precio"><sup> $</sup> 69 <sub>/Año</sub> </h6>
+                    <p class="plan__diferenciales"><lord-icon
+                        src="https://cdn.lordicon.com/iifryyua.json"
+                        trigger="hover"
+                        style="width:25px;height:25px">
+                    </lord-icon>Lectura ilimitada.</p>
+                    <p class="plan__diferenciales"><lord-icon
+                        src="https://cdn.lordicon.com/iifryyua.json"
+                        trigger="hover"
+                        style="width:25px;height:25px">
+                    </lord-icon>Todo los libros desbloqueados.</p>
+                    <p class="plan__diferenciales"><lord-icon
+                        src="https://cdn.lordicon.com/iifryyua.json"
+                        trigger="hover"
+                        style="width:25px;height:25px">
+                    </lord-icon>Solicitud personalizada de libros.</p>  
+                </div>
+                <div class="premium__button__container"><button type="button" class="plan___button">Adquirir premium</button></div>
+                
+            </div>
+        </section>
+
     </main>
     
     <footer>
@@ -345,7 +384,7 @@
                 <nav class="footer__navegacion">
                     <ul>
                         <li class="footer__list"><a href="#">Inicio</a></li>
-                        <li class="footer__list"><a href="#">Suscribete a Premium <img src="https://cdn-icons-png.flaticon.com/512/616/616490.png" alt="star"></a></li>
+                        <li class="footer__list"><a href="#" class="footer__premium___btn" onclick="openPremium()">Suscribete a Premium <img src="https://cdn-icons-png.flaticon.com/512/616/616490.png" alt="star"></a></li>
                         <li class="footer__list"><a href="./acercaDe.html" target="_blank">Acerca de</a></li>
                     </ul>
                 </nav>

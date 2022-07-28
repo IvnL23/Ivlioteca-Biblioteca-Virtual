@@ -322,7 +322,7 @@ function exitAndOpenLogIn() {
   document.querySelector(".Log__Overlay").classList.toggle("acti");
 }
 
-document.querySelector(".ham-link").addEventListener("href", (e) => {
+document.querySelector(".ham-link").addEventListener("click", (e) => {
   e.preventDefault();
 });
 
@@ -376,3 +376,18 @@ document.querySelector(".form__LogIn").addEventListener("submit", (ex) => {
   document.querySelector(".user_ID").innerHTML = dataLog.emailRequestlog;
   document.querySelector(".user_ID___Ham").innerHTML = dataSign.emailRequest;
 });
+
+
+// --------------------------------LogIn configuration--------------------------------------------------------------------------
+document.querySelector(".footer__premium___btn").addEventListener("click", (e) => {
+  e.preventDefault();
+});
+
+
+function openPremium(){
+  document.querySelector(".premium").classList.toggle("enaable");
+}
+
+function closePremium(){
+  document.querySelector(".premium").classList.remove("enaable");
+}
