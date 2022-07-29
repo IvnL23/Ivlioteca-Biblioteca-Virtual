@@ -1,5 +1,5 @@
 // --------------------------------Libros Autoayuda callBack--------------------------------------------------------------------------
-
+AOS.init();
 var app = {};
 
 var librosAutoayuda = (datos) => {
@@ -7,7 +7,7 @@ var librosAutoayuda = (datos) => {
 
   html = "";
   app.libros.map((libroAutoayuda) => {
-    html += "<div class='tarjeta__libro'>";
+    html += "<div class='tarjeta__libro' data-aos='zoom-in'>";
     html +=
       "<img class='libro__Portada' src='" +
       libroAutoayuda.portada +
@@ -53,7 +53,7 @@ var librosCienMat = (datos) => {
 
   html = "";
   app.libros.map((libroCienMat) => {
-    html += "<div class='tarjeta__libro'>";
+    html += "<div class='tarjeta__libro' data-aos='zoom-in'>";
     html +=
       "<img class='libro__Portada' src='" +
       libroCienMat.portada +
@@ -96,7 +96,7 @@ var librosHistoria = (datos) => {
 
   html = "";
   app.libros.map((libroHistoria) => {
-    html += "<div class='tarjeta__libro'>";
+    html += "<div class='tarjeta__libro' data-aos='zoom-in'>";
     html +=
       "<img class='libro__Portada' src='" +
       libroHistoria.portada +
@@ -139,7 +139,7 @@ var librosTecnologia = (datos) => {
 
   html = "";
   app.libros.map((libroTecnologia) => {
-    html += "<div class='tarjeta__libro'>";
+    html += "<div class='tarjeta__libro' data-aos='zoom-in'>";
     html +=
       "<img class='libro__Portada' src='" +
       libroTecnologia.portada +
@@ -185,7 +185,7 @@ var librosCienFicFant = (datos) => {
 
   html = "";
   app.libros.map((libroCienFicFant) => {
-    html += "<div class='tarjeta__libro'>";
+    html += "<div class='tarjeta__libro' data-aos='zoom-in'>";
     html +=
       "<img class='libro__Portada' src='" +
       libroCienFicFant.portada +
@@ -364,6 +364,7 @@ document.querySelector(".form__signIn").addEventListener("submit", (e) => {
     document.querySelector(".SignIn2").classList.toggle("disabble");
     document.querySelector(".LogIn2").classList.toggle("disabl");
     document.querySelector(".user_ID").classList.toggle("enable");
+    document.querySelector(".header__Avatar").classList.toggle("on");
     document.querySelector(".Sign__Overlay").classList.remove("activ");
     document.querySelector(".user_ID").innerHTML = dataSign.emailRequest;
     document.querySelector(".user_ID___Ham").innerHTML = dataSign.emailRequest;
@@ -379,9 +380,11 @@ document.querySelector(".form__LogIn").addEventListener("submit", (ex) => {
   document.querySelector(".SignIn2").classList.toggle("disabble");
   document.querySelector(".LogIn2").classList.toggle("disabl");
   document.querySelector(".user_ID").classList.toggle("enable");
+  document.querySelector(".header__Avatar").classList.toggle("on");
   document.querySelector(".Log__Overlay").classList.remove("acti");
   document.querySelector(".user_ID").innerHTML = dataLog.emailRequestlog;
   document.querySelector(".user_ID___Ham").innerHTML = dataSign.emailRequest;
+  
 });
 
 // --------------------------------LogIn configuration--------------------------------------------------------------------------

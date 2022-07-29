@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./assets/css/login.css">
     <link rel="stylesheet" href="./assets/css/premium.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,9 +23,9 @@
 </head>
 
 <body>
-    <header class="header__container">
+    <header class="header__container" data-aos="fade-down">
         <div class="header__logoTitle-container ">
-            <img src="./assets/img/biblioteca.png" alt="Ivlioteca Icon" class="header__logo" onclick="returnInit()">
+            <img src="./assets/img/biblioteca.png" alt="Ivlioteca Icon" class="header__logo" onclick="returnInit()" >
             <h1 class="header__titulo" onclick="returnInit()">Ivlioteca</h1>
         </div>
         
@@ -64,7 +65,7 @@
     <main>
         <section class="main__container">
         <div class="hero">
-            <div class="hero__populares">
+            <div class="hero__populares" data-aos="fade-right" data-aos-duration="700">
                 <div class="hero__populares___titulo">
                     <h2 class="populares__titulo">Populares</h2>
                 </div>
@@ -97,7 +98,7 @@
                 </div>
             </div>
 
-            <div class="hero__nuevasAdquisiciones nuevasAdquisiciones__tablet-desktop">
+            <div class="hero__nuevasAdquisiciones nuevasAdquisiciones__tablet-desktop" data-aos="fade-left" data-aos-duration="700">
                 <div class="hero__nuevasAdquisiciones__titulo">
                     <h2 class="nuevasAdquisiciones__titulo">Nuevas Adquisiciones</h2>
                 </div>
@@ -293,7 +294,7 @@
                         <p class="Log__o">o</p>
                         <form action="" method="post" class="form__signIn">
                             <input type="email" name="emailRequest" id="Users__Input___email-sign" class="Users__Input___email inputLog" placeholder="Correo electrónico" required>
-                            <input type="password" name="pswRequest" id="Users__Input___psw-sign" class="Users__Input___psw inputLog" placeholder="Contraseña" required>
+                            <input type="password" name="pswRequest" id="Users__Input___psw-sign" class="Users__Input___psw inputLog" placeholder="Contraseña" required minlength="4">
                             <input type="submit" value="Inicia Sesión" class="Log__submit___btn">
                         </form>
                         <a class="pswRecovery">¿Olvidó su contraseña?</a>
@@ -406,10 +407,12 @@
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./assets/js/main.js"></script>
     <script src="./assets/js/data.json"></script>
     <script src="./assets/js/rating.js"></script>
     <script src="./assets/js/buscarLibros.js"></script>
+    
     
 </body>
 </html>
