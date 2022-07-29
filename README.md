@@ -19,8 +19,3 @@ Agregar Libros
 Para agregar libros deberá iniciar sesión con la credenciales de administrados,
 si estás son correctas se le redirigirá al apartado de agregar libros.
 
--------------------------------------------Importante Para el Profesor---------------------------------------------
-Para ir a la pestana de administrador debe hacer clic en Iniciar Sesion y proporcional:
-
-email: eva_angelica@ivlioteca.com
-Contrasena: 2304
