@@ -509,14 +509,6 @@ footer {
   justify-content: center;
 }
 
-#search__box___footer {
-  margin-top: 0.5rem;
-}
-
-#search__box___footer:hover > input {
-  width: 87%;
-  padding: 0 10px;
-}
 
 .footer__container___Nav {
   grid-row: 1 / 2;

@@ -23,25 +23,26 @@
 </head>
 
 <body>
-    <header class="header__container" data-aos="fade-down">
+    <header class="header__container" >
         <div class="header__logoTitle-container ">
             <img src="./assets/img/biblioteca.png" alt="Ivlioteca Icon" class="header__logo" onclick="returnInit()" >
             <h1 class="header__titulo" onclick="returnInit()">Ivlioteca</h1>
         </div>
         
         <div class="header__inpbtnimg-container">
-            <div class="search__box">
-            <input type="text" placeholder="Buscar libro..." maxlength="100" class="searchInput">
-            <a href="#" class="icon___search">
-                <i class="fas fa-search"></i>
-            </a>
+            <div class="search__box search__boxDesktop">
+                <input type="text" placeholder="Buscar libro..." maxlength="100" class="searchInput">
+                <a href="#" class="icon___search">
+                    <i class="fas fa-search"></i>
+                </a>
+           
         </div>      
-
+        
         <button class="btn header__btn-SignIn" type="button" onclick="openSignIn()">Inicia sesión</button>
         <button class="btn header__btn-LogIn" type="button" onclick="openLogIn()">Registrate</button>
         <p class="user_ID"></p>
         <img src="./assets/img/user.png" alt="Avatar" class="header__Avatar">
-
+        
         <div class="header__hamburguer___menu">
 
             <input type="checkbox" name="" id="check">
@@ -59,7 +60,7 @@
             </ul>
         </div>
         </div>
-
+        
         
     </header>
     <main>
@@ -403,6 +404,8 @@
                 <li class="social__icon"><a href="https://www.linkedin.com/in/ivan-marte-frias-a1a206230" target="_blank" rel="noopener noreferrer" class="ico ico__lkd" title="Linkedln"><i class="fa-brands fa-linkedin fa-2x"></i></a></li>
             </ul>
         </div>
+
+        
         
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
