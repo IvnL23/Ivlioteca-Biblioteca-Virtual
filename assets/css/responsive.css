@@ -121,6 +121,24 @@
     width: 23.5rem;
   }
 
+  .SignIn__Facebook,
+  .LogIn__Facebook,
+  .SignIn__Google,
+  .LogIn__Google {
+    font-size: 0.6rem;
+  }
+
+  .SignIn__Facebook img,
+  .LogIn__Facebook img,
+  .SignIn__Google img,
+  .LogIn__Google img {
+    width: 1rem;
+  }
+
+  .inputLog {
+    font-size: 0.8rem;
+  }
+
   footer {
     display: grid;
     grid-template-columns: 50% 50%;
