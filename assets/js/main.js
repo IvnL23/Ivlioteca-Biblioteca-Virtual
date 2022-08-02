@@ -384,7 +384,6 @@ document.querySelector(".form__LogIn").addEventListener("submit", (ex) => {
   document.querySelector(".Log__Overlay").classList.remove("acti");
   document.querySelector(".user_ID").innerHTML = dataLog.emailRequestlog;
   document.querySelector(".user_ID___Ham").innerHTML = dataSign.emailRequest;
-  
 });
 
 // --------------------------------LogIn configuration--------------------------------------------------------------------------

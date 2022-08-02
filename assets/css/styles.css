@@ -215,7 +215,7 @@
   display: none;
 }
 
-.header__Avatar.on{
+.header__Avatar.on {
   display: flex;
 }
 
@@ -329,6 +329,11 @@
   color: var(--fuente-azul);
   font-weight: 400;
   line-height: 30.24px;
+  transition: 0.2s ease;
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+  -ms-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
 }
 
 .catalogo__navegacion li:hover {
@@ -338,7 +343,6 @@
 .catalogo__tarjetas___libros {
   width: 100%;
   flex-wrap: wrap;
-  flex-shrink: 4;
   justify-content: space-between;
 }
 
@@ -373,6 +377,13 @@
   box-shadow: var(--sombra-cards);
   background: #f6e8df1e;
   align-items: center;
+  transition: 0.2s ease-in-out;
+}
+
+.tarjeta__libro:hover {
+  width: 20.5625rem;
+  height: 35.625rem;
+  cursor: pointer;
 }
 
 .libro__Portada {
@@ -382,11 +393,12 @@
   margin: 0.4rem auto;
   border-radius: 5px;
   cursor: pointer;
-  transition: .2s ease-in;
+  transition: 0.2s ease-in-out;
 }
 
-.libro__Portada:hover{
+.libro__Portada:hover {
   width: 13.5rem;
+  height: 20rem;
 }
 
 .libro__Titulo {
@@ -407,7 +419,7 @@
 .libro__Rate img {
   width: 18px;
   height: 18px;
-  transition: 0.4s ease;
+  transition: 0.2s ease-in-out;
   cursor: pointer;
 }
 
@@ -439,11 +451,12 @@
   font-weight: 400;
   margin-top: 10px;
   padding: 1% 0;
-  transition: .3s ease;
+  transition: 0.2s ease-in-out;
 }
 
-.tarjeta__libro a:hover{
-  background-color: #2979ff  ;
+.tarjeta__libro a:hover {
+  background-color: #2979ff;
+  width: 50%;
 }
 
 .libro__comment {
@@ -459,11 +472,12 @@
   padding: 1% 0;
   text-align: center;
   border: none;
-  transition: .3s ease;
+  transition: 0.2s ease;
 }
 
-.libro__comment:hover{
+.libro__comment:hover {
   background-color: #ff9800;
+  width: 50%;
 }
 .comentar h5 img {
   width: 24px;
@@ -508,7 +522,6 @@ footer {
   grid-template-rows: 50% 50%;
   justify-content: center;
 }
-
 
 .footer__container___Nav {
   grid-row: 1 / 2;
